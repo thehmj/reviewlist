@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(213, 197, 176);
+}
+nav{
+  text-align: center;
+  color: white;
+}
+.Add{
+  border: 2px solid white;
+  margin: 20px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  .list{
+    background-color: gray;
+    box-shadow: 2px 1px white ;
+    color: white;
+  }

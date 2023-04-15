@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav>
+<h1>Movies List with Review</h1>
+<hr>
+ </nav>
+ <main>
+ <div class="Add">
+  <h2 style="color: rgb(64, 63, 63);">Add Movie</h2>
+  <hr>
+    <br>
+    NAME:
+    <input type="text" name="movie" id="movie">
+    <br>
+    <br>
+    REVIEW:
+    <br>
+    
+    <textarea name="review" id="review" cols="30" rows="5"></textarea>
+    <br>
+    GENRE:
+    
+    <input type="text" name="genre" id="genre">
+    <br>
+    <button type="submit" onclick="update()">ADD</button>
+ </div>
+ <div class="list">
+    <table style="width:100%" id="ma">
+        <tr>
+          <th>MOVIES</th>
+          <th>REVIEW</th>
+          <th>GENRE</th>
+        </tr>
+      </table>
+ </div>
+ </main>
+    
+
+ <script src="script.js"></script>   
+</body>
+</html>
